@@ -1,0 +1,632 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+a {
+	color: #f7f1e3;
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+body {
+	min-width: 1270px;
+}
+
+#container {
+	max-width: 1270px;
+}
+
+
+
+
+
+#mainContainer {
+	width: 100%;
+	height: 650px;
+	background: black;
+}
+
+#insideContainer {
+	width: 90%;
+	height: 600px;
+	margin: auto;
+	position: relative;
+}
+
+#headerContainer {
+	width: 100%;
+	height: 70px;
+}
+
+.logoName {
+	display: block;
+	position: relative;
+	left: 10%;
+	width: 250px;
+	height: 250px;
+	background: url(meatzade.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 20px;
+	float: left;
+}
+
+.headerInside {
+	width: 500px;
+	height: 70px;
+	float: right;
+	padding: 50px;
+	word-spacing: 20px;
+}
+
+#ulTopRight {
+	list-style-type: none;
+}
+
+#ulTopRight li {
+	display: inline-block;
+	position: relative;
+	word-spacing: 5px;
+	border-right: 1px solid #f7f1e3;
+	font-size: 16px;
+	float: left;
+	left: -10%;
+	padding: 6px 10px;
+}
+
+#ulTopRight li a:hover {
+	color: #ffb142;
+}
+
+#middleContainer {
+	width: 100%;
+	height: 500px;
+	float: left;
+} 
+
+#leftMiddleContainer {
+	width: 500px;
+	height: 400px;
+	float: left;
+	position: relative;
+}
+
+.textContainer {
+	display: block;
+	position: relative;
+	top: -10%;
+	left: -10%;
+	width: 500px;
+	height: 170px;
+	color: #ffeaa7;
+	font-size: 23px;
+	text-align: center;
+	font-family: 'Great Vibes', cursive;
+	margin-left: 100px;
+}
+
+.buttonInside {
+	display: block;
+	position: relative;
+	top: 5%;
+	left: 17%;
+	width: 150px;
+	height: 20px;
+	border: 1px solid white;
+	text-align: center;
+	padding: 20px;
+	margin-left: 120px;
+	background: #ff6348;
+	margin-top: 30px;
+}
+
+#rightMiddleContainer {
+	display: block;
+	position: relative;
+	top: -25%;
+	left: 50%;
+	width: 500px;
+	height: 450px;
+	background: url(fon2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+
+}
+
+#infoSection {
+	width: 100%;
+	height: 650px;
+	background: black;
+}
+
+#infoContainer {
+	width: 90%;
+	height: 500px;
+	border: 2px solid white;
+	margin: auto;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.leftInfo {
+	width: 40%;
+	height: 500px;
+	background: url(rest.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	float: left;
+}
+
+.rightInfo {
+	width: 60%;
+	height: 500px;
+	background: white;
+	float: right;
+}
+
+.rightInfo h2 {
+	margin-top: 30px;
+	color: #2C3A47;
+	font-family: 'Great Vibes', cursive;
+	font-size: 60px;
+	letter-spacing: 2px;
+	text-align: center;
+
+}
+
+.rightInfo h1 {
+	text-align: center;
+	margin-top: 30px;
+	font-size: 50px;
+	font-family: 'Merriweather', serif;
+}
+
+.rightInfo p {
+	width: 70%;
+	margin: auto;
+	margin-top: 30px;
+	line-height: 23px;
+	font-size: 17px;
+}
+
+.borderP {
+	border-top: 3px solid black; 
+}
+
+#menuSection {
+	width: 100%;
+	height: 1830px;
+	background: black;
+}
+
+#menuText {
+	width: 60%;
+	height: 200px;
+	margin: auto;
+}
+
+#menuText p {
+	color: #CAD3C8;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#menuText h1 {
+	text-align: center;
+	color: #F8EFBA;
+	margin-top: 20px;
+	font-size: 40px;
+	font-family: 'Merriweather', serif;
+	text-shadow: 1px 1px 1px white;
+}
+
+#firstDish {
+	width: 90%;
+	height: 400px;
+	margin: auto;
+}
+
+
+.rotate1 {
+	display: block;
+	position: relative;
+	top: 20%;
+	left: 35%;
+	width: 350px;
+	height: 350px;
+	margin: -60px 0 0 -280px;
+	-webkit-animation: spin 5s linear infinite;
+	-moz-animation: spin 5s linear infinite;
+	animation: spin 15s linear infinite;
+}
+
+@-webkit-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+.textFirstDish {
+	display: inline-block;
+	position: relative;
+	top: -5%;
+	left: 80%;
+	margin: -280px 0 0 -280px;
+}
+
+.textFirstDish h1 {
+	color: #ffeaa7;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+
+}
+
+.textFirstDish h2 {
+	margin-top: 30px;
+	font-size: 20px;
+	word-spacing: 5px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+#borderF {
+	margin-top: 20px;
+	border-bottom: 3px solid #ffeaa7;
+}
+
+#secondDish {
+	width: 90%;
+	height: 400px;
+	margin: auto;
+}
+
+.rotate2 {
+	display: block;
+	position: relative;
+	top: 30%;
+	left: 80%;
+	width: 450px;
+	height: 450px;
+	margin: -320px 0 0 -280px;
+	-webkit-animation: spin 5s linear infinite;
+	-moz-animation: spin 5s linear infinite;
+	animation: spin 15s linear infinite;
+}
+
+@-webkit-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+.textSecondDish {
+	display: inline-block;
+	position: relative;
+	top: 10%;
+	left: 35%;
+	margin: 40px 0 0 -280px;
+}
+
+.textSecondDish h1 {
+	color: #ffeaa7;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	margin-top: 40px;
+	left: 40%;
+}
+
+.textSecondDish h2 {
+	margin-top: 30px;
+	font-size: 20px;
+	word-spacing: 5px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+#borderS {
+	margin-top: 20px;
+	border-bottom: 3px solid #ffeaa7;
+}
+
+#thirdDish {
+	width: 90%;
+	height: 400px;
+	margin: auto;
+}
+
+.rotate3 {
+	display: block;
+	position: relative;
+	top: 20%;
+	left: 35%;
+	width: 400px;
+	height: 400px;
+	margin: -60px 0 0 -280px;
+	-webkit-animation: spin 5s linear infinite;
+	-moz-animation: spin 5s linear infinite;
+	animation: spin 15s linear infinite;
+}
+
+@-webkit-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+.textThirdDish {
+	display: inline-block;
+	position: relative;
+	top: -15%;
+	left: 75%;
+	margin: -280px 0 0 -280px;
+}
+
+.textThirdDish h1 {
+	color: #ffeaa7;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+
+}
+
+.textThirdDish h2 {
+	margin-top: 30px;
+	font-size: 20px;
+	word-spacing: 5px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+#borderT {
+	margin-top: 20px;
+	border-bottom: 3px solid #ffeaa7;
+}
+
+#fourthDish {
+	width: 90%;
+	height: 400px;
+	margin: auto;
+}
+
+.rotate4 {
+	display: block;
+	position: relative;
+	top: 30%;
+	left: 80%;
+	width: 450px;
+	height: 450px;
+	margin: -320px 0 0 -280px;
+	-webkit-animation: spin 5s linear infinite;
+	-moz-animation: spin 5s linear infinite;
+	animation: spin 15s linear infinite;
+}
+
+@-webkit-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+@keyframes spin{
+	100%{-webkit-transform: rotate(360deg);}
+}
+
+.textFourthDish {
+	display: inline-block;
+	position: relative;
+	top: 10%;
+	left: 30%;
+	margin: 40px 0 0 -280px;
+}
+
+.textFourthDish h1 {
+	color: #ffeaa7;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	margin-top: 40px;
+	left: 40%;
+}
+
+.textFourthDish h2 {
+	margin-top: 30px;
+	font-size: 20px;
+	word-spacing: 5px;
+	color: white;
+	font-family: 'Merriweather', serif;
+}
+
+#borderFo {
+	margin-top: 20px;
+	border-bottom: 3px solid #ffeaa7;
+}
+
+#reservationSection {
+	width: 100%;
+	height: 550px;
+	background: black;
+}
+
+#reservationContainer {
+	width: 100%;
+	height: 500px;
+	background: url(restoran.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.cover {
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+}
+
+.cover p {
+	font-family: 'Great Vibes', cursive;
+	color: #bdc3c7;
+	text-align: center;
+	font-size: 60px;
+	padding: 7%;
+	line-height: 5px;
+}
+
+.cover h1 {
+	font-family: 'Merriweather', serif;
+	font-size: 40px;
+	color: white;
+	text-shadow: 2px 2px 2px white;
+	text-align: center;
+	margin-top: 20px; 
+}
+
+.buttonReserv {
+	width: 150px;
+	height: 20px;
+	border: 1px solid white;
+	text-align: center;
+	padding: 20px;
+	margin: auto;
+	margin-top: 30px;
+	transition: 2s;
+}
+
+.buttonReserv:hover {
+	background: #ff6348;
+}
+
+#footerSection {
+	width: 100%;
+	height: 360px;
+	background: black;
+}
+
+#footerContainer {
+	width: 90%;
+	height: 360px;
+	margin: auto;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#leftFooter {
+	width: 33.3%;
+	height: 360px;
+}
+
+.logo {
+	display: block;
+	position: relative;
+	top: 1%;
+	left: 20%;
+	width: 280px;
+	height: 160px;
+}
+
+#socialLogos {
+	margin: auto;
+	top: -10%;
+	margin-right: -10px;
+	width: 260px;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.facebookLogo {
+	width: 20%;
+	height: 50px;
+	background: url(facebook.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.instagramLogo {
+	width: 20%;
+	height: 50px;
+	background: url(instagram.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.twitterLogo {
+	width: 20%;
+	height: 50px;
+	background: url(twitter.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
+
+#middleFooter {
+	width: 31%;
+	height: 360px;
+}
+
+#middleFooter h2 {
+	color: #f7f1e3;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 3px solid #ffeaa7;
+}
+
+#middleFooter p {
+	color: #f7f1e3;
+	font-family: 'Merriweather', serif;
+	line-height: 15px;
+	text-align: left;
+	margin-top: 20px;
+}
+
+#rightFooter {
+	width: 30%;
+	height: 360px;
+	margin-left: 5%;
+}
+
+#rightFooter h2 {
+	color: #f7f1e3;
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	line-height: 50px;
+	border-bottom: 3px solid #ffeaa7;
+}
+
+#rightFooter p {
+	color: #f7f1e3;
+	font-family: 'Merriweather', serif;
+	text-align: left;
+	line-height: 25px;
+	margin-top: 20px;
+}
+
+#rightFooter input {
+	width: 250px;
+	height: 35px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+
+
+
